@@ -22,13 +22,13 @@ Page({
   reward:function(){
     var that = this;
     var i = 0;
-    for(i =0;i<20;i++) {
-      setTimeout(300);
-    }
+    // for(i =0;i<20;i++) {
+      this.timeout(that,30,that.timeout);
+    // }
     // this.timeout(300);
   },
-  timeout: function(ms) {
-    var that = this;
+  timeout: function(cxt,ms,callback) {
+    var that = cxt;
     setTimeout(()=>{
       var tmp = that.data.activeArr.slice(0);
       var _activeIndex = this.data.activeIndex;
@@ -44,7 +44,7 @@ Page({
         activeArr: tmp,
         activeIndex: _activeIndex
       });
-      console.log(tmp);
+      callback(that,ms+10,that.timeout);
     },ms)
   }
 })
