@@ -10,12 +10,17 @@
 }
 
 .item {
+    text-align: center;
+    line-height: 3.8rem;
     box-sizing: content-box;
     display: inline-block;
     width:3.8rem;
     height:3.8rem;
     background: #ffeeee;
     border-radius: 8px;
+}
+.item.active {
+    background-color: #fda019;
 }
 .item1 {
     position: absolute;
@@ -40,40 +45,60 @@
 .item5 {
     position: absolute;
     top: 4.1rem;
-    left: 0.1rem;
+    right: 0.1rem;
 }
 .item6 {
     position: absolute;
-    top: 4.1rem;
+    top: 8.1rem;
     right: 0.1rem;
 }
 .item7 {
     position: absolute;
-    top: 8.1rem;
-    left: 0.1rem;
-}
-.item8 {
-    position: absolute;
-    top: 8.1rem;
+    bottom: 0.1rem;
     right: 0.1rem;
 }
-.item9 {
-    position: absolute;
-    bottom: 0.1rem;
-    left: 0.1rem;
-}
-.item10 {
-    position: absolute;
-    bottom: 0.1rem;
-    left: 4.1rem;
-}
-.item11 {
+.item8 {    
     position: absolute;
     bottom: 0.1rem;
     left: 8.1rem;
 }
-.item12 {
+.item9 {
     position: absolute;
     bottom: 0.1rem;
-    right: 0.1rem;
+    left: 4.1rem;
+}
+.item10 {
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0.1rem;
+}
+.item11 {
+    position: absolute;
+    top: 8.1rem;
+    left: 0.1rem;
+}
+.item12 {
+    position: absolute;
+    top: 4.1rem;
+    left: 0.1rem;
+}
+
+.btn {
+    display: inline-block;
+    width:7.8rem;
+    height:7.8rem;
+    background-color: #ffef67 !important;
+    border: 0px !important;
+    position: absolute;
+    left: 4.1rem;
+    top: 4.1rem;
+    border-radius: 8px;
+    line-height: 7.8rem;
+    color: #ff341a;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.btn-active {
+    background-color: #fda019;
 }

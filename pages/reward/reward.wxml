@@ -1,14 +1,15 @@
 <view class="reward-container">
-    <view class="item item1"></view>
-    <view class="item item2"></view>
-    <view class="item item3"></view>
-    <view class="item item4"></view>
-    <view class="item item5"></view>
-    <view class="item item6"></view>
-    <view class="item item7"></view>
-    <view class="item item8"></view>
-    <view class="item item9"></view>
-    <view class="item item10"></view>
-    <view class="item item11"></view>
-    <view class="item item12"></view>
+    <view class="item item1 {{activeArr[0]}}">1</view>
+    <view class="item item2 {{activeArr[1]}}">2</view>
+    <view class="item item3 {{activeArr[2]}}">3</view>
+    <view class="item item4 {{activeArr[3]}}">4</view>
+    <view class="item item5 {{activeArr[4]}}">5</view>
+    <view class="item item6 {{activeArr[5]}}">6</view>
+    <view class="item item7 {{activeArr[6]}}">7</view>
+    <view class="item item8 {{activeArr[7]}}">8</view>
+    <view class="item item9 {{activeArr[8]}}">9</view>
+    <view class="item item10 {{activeArr[9]}}">10</view>
+    <view class="item item11 {{activeArr[10]}}">11</view>
+    <view class="item item12 {{activeArr[11]}}">12</view>
+    <button class="btn" bindtap="reward" hover-class="btn-active">立即抽奖</button>
 </view>
