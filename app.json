@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/reward/reward"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "img/home.png",
+      "selectedIconPath":"img/home-hl.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/reward/reward",
+      "iconPath": "img/reward.png",
+      "selectedIconPath":"img/reward-hl.png",
+      "text": "抽奖"
+    }],
+    "borderStyle":"white",
+    "selectedColor":"#48c23d"
+  }
+}

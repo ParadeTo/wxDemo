@@ -1,0 +1,79 @@
+/* pages/reward/reward.wxss */
+.reward-container {
+    margin: 2rem auto;
+    box-sizing: content-box;
+    width:16rem;
+    height:16rem;
+    border: 8px solid #fda019;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.item {
+    box-sizing: content-box;
+    display: inline-block;
+    width:3.8rem;
+    height:3.8rem;
+    background: #ffeeee;
+    border-radius: 8px;
+}
+.item1 {
+    position: absolute;
+    top: 0.1rem;
+    left: 0.1rem;
+}
+.item2 {
+    position: absolute;
+    top: 0.1rem;
+    left: 4.1rem;
+}
+.item3 {
+    position: absolute;
+    top: 0.1rem;
+    right: 4.1rem;
+}
+.item4 {
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+}
+.item5 {
+    position: absolute;
+    top: 4.1rem;
+    left: 0.1rem;
+}
+.item6 {
+    position: absolute;
+    top: 4.1rem;
+    right: 0.1rem;
+}
+.item7 {
+    position: absolute;
+    top: 8.1rem;
+    left: 0.1rem;
+}
+.item8 {
+    position: absolute;
+    top: 8.1rem;
+    right: 0.1rem;
+}
+.item9 {
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0.1rem;
+}
+.item10 {
+    position: absolute;
+    bottom: 0.1rem;
+    left: 4.1rem;
+}
+.item11 {
+    position: absolute;
+    bottom: 0.1rem;
+    left: 8.1rem;
+}
+.item12 {
+    position: absolute;
+    bottom: 0.1rem;
+    right: 0.1rem;
+}
